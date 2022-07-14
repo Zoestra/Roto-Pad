@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.09982,
+          "height": 1.778,
+          "width": 1.778
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,8 +48,58 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "clearance|146777200|64693400|781f4560-db31-4ec0-9ddb-9397beb273fa|66a6c8b3-78e4-45d9-a32f-f608bcc3f777",
+        "clearance|146777200|66468400|48b4ad4e-8205-4f00-b73b-d8c0cd629233|8660c4c7-cd78-46aa-8ead-e0a0b238e5f5",
+        "clearance|147370000|64693400|72efa6ff-8fe6-4cae-bb07-a8b7a51e465d|66a6c8b3-78e4-45d9-a32f-f608bcc3f777",
+        "clearance|149867200|68553400|ed9cda23-8d16-422d-ad24-d7b90939678d|2e767623-5ac9-4a3c-a1df-636aa6d9df7c",
+        "clearance|152638800|65813200|8a5fa2d5-d6e9-49c4-922d-5797e03b9981|65eb1f35-acaa-4164-946c-90e83a4a2fec",
+        "clearance|153702200|64749800|b0d52a95-a4c5-4fe0-a0a7-5a4ac3f934e8|65eb1f35-acaa-4164-946c-90e83a4a2fec",
+        "clearance|156022085|64798782|334b6359-cf4a-4b27-a60d-b53a6bc0b295|a00d6d19-9350-41d1-aef5-de610533c3bb",
+        "clearance|156694600|65660800|a90368d9-18a2-4d2f-a037-d4dee6c7da90|dde84395-6dc2-441e-9c18-26377f5493b5",
+        "clearance|158654800|67296400|e3453b63-bb00-418f-b328-0844b1fd1567|538bd6cd-dac1-4955-9fdc-98fcee10b37b",
+        "clearance|160070000|66249600|4325ca31-0332-4733-969b-95119f3b7000|41d09dbb-09ed-49ed-9d93-9f55dd327d9c",
+        "clearance|160477200|64668400|2630dbd3-87d4-4979-8fa2-5f5c72d72cc5|2b8b029d-7402-4502-bb52-c566b774af5d",
+        "clearance|94878002|50249999|07bab048-e6d6-47e2-971f-4217b1361120|6f4e2d69-bffa-4d99-820b-bc82cf70dbec",
+        "clearance|94878002|50249999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|c84564fc-7c4d-4aa8-bf5c-2132088b3711",
+        "clearance|94878002|51349999|07bab048-e6d6-47e2-971f-4217b1361120|669756a0-59cc-4ad2-9683-f149fddffe0a",
+        "clearance|94878002|51349999|07bab048-e6d6-47e2-971f-4217b1361120|f2b2c3ec-45f5-4d3e-83f7-934074a54db5",
+        "clearance|94878002|51349999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|1aa8de15-c8d5-4ed5-a38b-d2950b1891ea",
+        "clearance|94878002|51349999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|e60eabaf-4ed4-41a3-a88f-5cb86621f1fb",
+        "clearance|94878002|52449999|07bab048-e6d6-47e2-971f-4217b1361120|c2aa5a75-47a6-4ae6-a852-8bb9e4085192",
+        "clearance|94878002|52449999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|4588f36c-a123-4857-97ca-3f5f212958f7",
+        "clearance|95378001|48650002|07bab048-e6d6-47e2-971f-4217b1361120|ba09ffc0-bfd5-427f-b372-37a6b06ad802",
+        "clearance|95378001|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|920889db-71b3-4bb6-a5de-d8b602410052",
+        "clearance|96478001|48650002|07bab048-e6d6-47e2-971f-4217b1361120|a8cd4624-d0b2-4b35-9e36-3f1fa1dd7406",
+        "clearance|96478001|48650002|07bab048-e6d6-47e2-971f-4217b1361120|ed0aa180-7ba6-4306-a183-0831985738c3",
+        "clearance|96478001|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|80c489f9-4d21-4cea-8b6b-f72ecc601f0e",
+        "clearance|96478001|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|8b5a733c-8ac8-4f39-b08f-4052ad92f4b0",
+        "clearance|96478001|52950000|07bab048-e6d6-47e2-971f-4217b1361120|ead9b70c-e1bb-43e1-ba21-36b55da1e5a7",
+        "clearance|96478001|52950000|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|febb84f6-718f-4404-8dce-ad0e5d8ecb30",
+        "clearance|97578001|48650002|07bab048-e6d6-47e2-971f-4217b1361120|1bb18430-8c8e-4f83-be56-04eb25f99a6b",
+        "clearance|97578001|48650002|07bab048-e6d6-47e2-971f-4217b1361120|49541102-8103-4212-8f87-60f2af26b2d7",
+        "clearance|97578001|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|08a63179-cfdf-41b8-a628-c4df42dce13c",
+        "clearance|97578001|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|d4fbab0a-6db3-4b5c-b8d6-86760f3640c5",
+        "clearance|97578001|52950000|07bab048-e6d6-47e2-971f-4217b1361120|e5028593-2679-4464-9a6b-0accb7d0823e",
+        "clearance|97578001|52950000|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|aeb7b2d6-f20c-4172-ba2c-b698f078668d",
+        "clearance|98678002|48650002|07bab048-e6d6-47e2-971f-4217b1361120|aacab78a-44c4-455a-a498-52fd43ef25a2",
+        "clearance|98678002|48650002|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|d5b3330a-aa7f-4660-a86c-7a4dc57f44a8",
+        "clearance|99178000|50249999|07bab048-e6d6-47e2-971f-4217b1361120|f3a3a1c3-8ad2-4e0a-9864-ec4f2318c970",
+        "clearance|99178000|50249999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|83470adf-6b45-494e-8e33-5c100249327b",
+        "clearance|99178000|51349999|07bab048-e6d6-47e2-971f-4217b1361120|73ef25e3-09c7-4d7d-bb0c-fa8b199012cd",
+        "clearance|99178000|51349999|07bab048-e6d6-47e2-971f-4217b1361120|c4510a6d-9f12-48b0-9bbb-02692f7fd9fb",
+        "clearance|99178000|51349999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|95a1b98a-c68d-4f8c-9005-5294b96ad324",
+        "clearance|99178000|51349999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|a42ea38b-7cd7-4d57-a9a9-8820b4ced8c9",
+        "clearance|99178000|52449999|07bab048-e6d6-47e2-971f-4217b1361120|c57c9524-a553-48b1-8ef2-3ff30f4f3877",
+        "clearance|99178000|52449999|1039d68d-2c3e-43b7-88a5-facb6b3d92d4|d0dd894d-73bd-4fd1-8a9e-44bb10c07318"
+      ],
       "meta": {
         "version": 2
       },
@@ -60,7 +110,7 @@
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint_type_mismatch": "error",
@@ -112,8 +162,15 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
