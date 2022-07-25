@@ -1,4 +1,4 @@
-22399008397025059
+22407297412051673
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -231,16 +231,16 @@ SPARKFUN FLAME LOGO - 0.4" HEIGHT - SILKSCREEN
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.05
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.5
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
 0
 0
 0
 Aesthetics
-SFE_LOGO_FLAME_.5
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
-SPARKFUN FLAME LOGO - 0.5" HEIGHT - SILKSCREEN
+SFE_LOGO_FLAME_.05
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
+SPARKFUN FLAME LOGO - 0.05" HEIGHT - SILKSCREEN
 0
 0
 0
@@ -51057,6 +51057,13 @@ USB MICRO-B PLUG CONNECTOR
 0
 9
 6
+Connectors
+WEMOS_D1_MINI_LIGHT_SLIME
+
+
+0
+16
+16
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -52927,6 +52934,13 @@ Custom
 2
 2
 Custom
+804040 LiPo 2
+
+
+0
+2
+2
+Custom
 D_0805_2012Metric_Pad1.15x1.40mm_HandSolder
 Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 diode handsolder
@@ -52941,6 +52955,13 @@ Esplora OLED Shield
 20
 20
 Custom
+MPU6050
+
+
+0
+8
+8
+Custom
 Neopixel 2040
 
 
@@ -52954,6 +52975,13 @@ TINY OLED I2C
 0
 4
 4
+Custom
+WEMOS_D1_MINI_SLIME
+
+
+0
+16
+16
 Custom
 xX_1.5U_Super_Heckin_Valid_MX_CHOC_SK6812MINIE_ONESIDE_KEYSWITCH_UwU_Xx
 
@@ -86645,6 +86673,13 @@ Logo WEEE
 0
 0
 0
+TP4056-18650-master
+TP4056-18650
+
+
+0
+6
+6
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
